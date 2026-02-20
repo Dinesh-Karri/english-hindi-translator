@@ -16,3 +16,4 @@ pandas
 aiofiles
 jieba
 accelerate
+gunicorn

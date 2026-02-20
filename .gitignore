@@ -31,4 +31,3 @@ Thumbs.db
 .gradio/
 
 # Hugging Face cache
-*.lock
