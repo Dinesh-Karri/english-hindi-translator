@@ -1,0 +1,82 @@
+.settings-container {
+  padding: 2rem 0;
+}
+
+.settings-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.settings-section {
+  background: var(--bg-secondary);
+  padding: 2rem;
+  border-radius: 12px;
+  border: 1px solid var(--border-color);
+  margin-bottom: 2rem;
+}
+
+.settings-section h2 {
+  color: var(--text-primary);
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.settings-section p {
+  color: var(--text-secondary);
+  margin: 0.5rem 0;
+  line-height: 1.8;
+}
+
+.theme-toggle {
+  margin: 1rem 0;
+}
+
+.theme-toggle label {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+}
+
+.theme-toggle input[type="checkbox"] {
+  display: none;
+}
+
+.toggle-slider {
+  width: 60px;
+  height: 30px;
+  background: var(--bg-primary);
+  border: 2px solid var(--border-color);
+  border-radius: 15px;
+  position: relative;
+  transition: all 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.theme-toggle input[type="checkbox"]:checked + .toggle-slider {
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+}
+
+.toggle-label {
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.developer-links {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.developer-links a {
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.developer-links a:hover {
+  color: var(--secondary-color);
+}
+

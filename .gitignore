@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+dist/
+build/
+.env
+
+# Virtual environments
+venv/
+.venv/
+backend/venv/
+
+# Node
+node_modules/
+english-hindi-frontend/node_modules/
+
+# Vite
+english-hindi-frontend/dist/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Gradio
+.gradio/
+
+# Hugging Face cache
+*.lock
